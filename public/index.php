@@ -25,6 +25,14 @@ switch ($route) {
         require_once __DIR__ . '/../app/controllers/UserController.php';
         (new UserController())->handle();
         break;
+    case 'tasks':
+        require_once __DIR__ . '/../app/controllers/TaskController.php';
+        (new TaskController())->handle();
+        break;
+    case 'notifications':
+        require_once __DIR__ . '/../app/controllers/NotificationController.php';
+        (new NotificationController())->handle();
+        break;
     // ...другие маршруты...
     default:
         header("HTTP/1.0 404 Not Found");
