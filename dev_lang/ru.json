@@ -1,0 +1,12 @@
+{
+    "Login": "Вход",
+    "Username": "Имя пользователя",
+    "Password": "Пароль",
+    "Invalid username or password": "Неверное имя пользователя или пароль",
+    "Dashboard": "Панель управления",
+    "Projects": "Проекты",
+    "Tasks": "Задания",
+    "Profile": "Профиль",
+    "Logout": "Выход",
+    "Create Project": "Создать проект"
+}
