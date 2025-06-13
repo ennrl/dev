@@ -1,0 +1,7 @@
+[
+  {
+    "login": "admin",
+    "password": "admin", // В реальной системе хранить хеш!
+    "role": "admin"
+  }
+]
