@@ -1,0 +1,26 @@
+<?php
+return [
+    'login_title' => 'Login',
+    'username' => 'Username',
+    'password' => 'Password',
+    'login' => 'Login',
+    'login_error' => 'Invalid username or password',
+    'dashboard' => 'My Projects',
+    'create_project' => 'Create Project',
+    'project_title' => 'Title',
+    'created_at' => 'Created',
+    'actions' => 'Actions',
+    'preview' => 'Preview',
+    'edit' => 'Edit',
+    'create' => 'Create',
+    'edit_project' => 'Edit Project',
+    'user_management' => 'User Management',
+    'add_user' => 'Add',
+    'role' => 'Role',
+    'role_user' => 'Student',
+    'role_admin' => 'Admin',
+    'user_exists' => 'User already exists',
+    'user_added' => 'User added',
+    'fill_fields' => 'Fill all fields',
+    'view' => 'View'
+];
