@@ -1,14 +1,6 @@
 <?php
 // dev_app/dev_controllers/AuthController.php
 
-function dev_show_main() {
-    if (isset($_SESSION['login'])) {
-        echo "<div class='container mt-5'><h2>Здравствуйте, " . htmlspecialchars($_SESSION['login']) . "!</h2><a href='?logout=1'>Выйти</a></div>";
-    } else {
-        require_once __DIR__ . '/../../dev_views/main.php';
-    }
-}
-
 function dev_handle_login($login, $password) {
     $users = json_decode(file_get_contents(__DIR__ . '/../../dev_data/users.json'), true);
     foreach ($users as $user) {
